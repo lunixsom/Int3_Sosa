@@ -3,13 +3,13 @@
 
 .navbar__container {
     align-items: center;
-    background-color: $navbar-bg-color;
+    background-color: $strong-secondary-color;
     box-shadow: 2px 2px 8px 1px $superlight-primary-color;
     display: flex;
-    min-height: 4.5rem;
-    position: fixed;
+    min-height: 6rem;
     top: 0;
-    width: 100%;
+    color:$white-color;
+    border-radius: 1rem;
     z-index: 2;
     .navbar__navigation {
         ul {
@@ -22,9 +22,6 @@
                     color: $white-color;
                     &:hover {
                         color: $strong-primary-color;
-                    };
-                    &:visited {
-                        color: $light-primary-color;
                     }
                 }
             }
@@ -44,10 +41,32 @@
             background-color: transparent;
             border: 2px solid $primary-color;
             border-radius: 0.5rem;
-            color: $primary-color;
+            color: $white-color;
             padding: 0.5rem;
         }
     }
+}
+
+.navbar_container {
+  position: relative;
+  background-color: $navbar-bg-color;
+  padding: 1.5rem 3rem;
+  border: 6px double $strong-primary-color;
+  box-shadow: $box-shadow-4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar_content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  position: relative;
 }
 
 .navbar__drawer-menu {
@@ -64,7 +83,7 @@
                     color: $strong-primary-color;
                 };
                 &:visited {
-                    color: $light-primary-color;
+                    color: $white-color;
                 }
             }
         }

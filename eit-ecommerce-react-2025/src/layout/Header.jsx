@@ -16,7 +16,7 @@ function Header() {
     const [openMenuDrawer, setOpenMenuDrawer] = useState(false)
 
     return (
-        <header className="navbar__container">
+        <header className="navbar__container m-4">
             <Container className="d-flex space-between">
                 <NavLink to="/" className="d-flex align-center">
                     <img src={brandImage} alt="" className="mr-4"/>
