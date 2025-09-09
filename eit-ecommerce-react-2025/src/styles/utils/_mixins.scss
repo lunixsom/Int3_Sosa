@@ -1,0 +1,10 @@
+@use "sass:map";
+@use "variables" as *;
+
+@mixin create-container-width () {
+    @each $bp, $w in $grid-breakpoints {
+        @media (min-width: $w) {
+            max-width: map.get($grid-width, $bp);
+        }
+    }
+}

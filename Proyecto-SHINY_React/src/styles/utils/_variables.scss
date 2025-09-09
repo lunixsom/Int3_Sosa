@@ -1,0 +1,152 @@
+
+//Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$grid-width: (
+  xs: 360px,
+  sm: 520px,
+  md: 720px,
+  lg: 880px,
+  xl: 1120px,
+  xxl: 1200px
+);
+
+// Colors
+/* $primary-color: #fba93e;
+$strong-primary-color: #fa9304;
+$light-primary-color: #edc690;
+$superlight-primary-color: #f4e1c5;
+$secondary-color: #2EC4B6;
+$strong-secondary-color: #16a395;
+$light-secondary-color: #CBF3F0;
+
+$black-color: #111;
+$white-color: #edebeb; */
+
+$overlay-color: rgba(0, 0, 0, 0.6);
+
+$success-color: #2a892a;
+$danger-color: #d02121;
+$warning-color: #c1aa17;
+
+//Layout
+/* $body-bg-color: $light-secondary-color; */
+/* $navbar-bg-color: $strong-secondary-color; */
+
+//Grid
+$grid-columns: 12;
+
+//Spacings
+$spacings: (
+    m: margin,
+    mt: margin-top,
+    mb: margin-bottom,
+    ml: margin-left,
+    mr: margin-right,
+    p: padding,
+    pt: padding-top,
+    pb: padding-bottom,
+    pl: padding-left,
+    pr: padding-right,
+);
+
+
+$gridbreakpoints: (
+    xs: 0,       // Móviles muy pequeños
+    sm: 576px,   // Móviles estándar
+    md: 768px,   // Tablets
+    lg: 992px,   // Laptops
+    xl: 1200px,  // Monitores grandes
+    xxl: 1400px  // Monitores muy grandes
+);
+
+
+$grid-width: (
+    xs: 360px,
+    sm: 520px,
+    md: 720px,
+    lg: 880px,
+    xl: 1120px,
+    xxl: 1200px
+);
+
+
+
+
+$primary-color: #00241B;
+$strong-primary-color: #4E878C;
+$light-primary-color: #06687e;
+$superlight-primary-color: #f4e1c5;
+
+
+$secondary-color: #93E5AB;
+$strong-secondary-color: #165b4a;
+$light-secondary-color: #65B891;
+
+
+$white-color: rgb(255, 255, 255);
+$black-color: rgb(0, 0, 0);
+
+$success-color: rgb(76, 175, 80);
+$warning-color: rgb(255, 152, 0);
+$error-color: rgb(244, 67, 54);
+$info-color: rgb(33, 150, 243);
+
+//layout
+$body-bg-color: $light-secondary-color;
+$navbar-bg-color: $strong-secondary-color;
+
+//menu
+$menu-bg-color: #1f5458a3;
+$menu-border-color: #deebee70;
+$menu-border-radius: 0.5rem;
+
+
+
+//grid
+$grid-columns: 12;
+$grid-columns-gap: 3rem;
+$grid-rows-gap: 3rem;
+
+//hover
+
+
+//spacings
+
+$spacings: (
+    m: margin,
+    mt: margin-top,
+    mb: margin-bottom,
+    ml: margin-left,
+    mr: margin-right,
+    p: padding,
+    pt: padding-top,
+    pb: padding-bottom,
+    pl: padding-left,
+    pr: padding-right
+);
+// Border
+
+$border-radius: 0.5rem;
+$border: 12px solid #4E878C;
+
+// //boxshadow//
+
+ $box-shadow: 1px 2px 8px 6px #36e6f4;
+ $box-shadow-2: 2px 2px 10px 7px #0c483b;
+ $box-shadow-3: 4px 4px 4px #21f3df;
+ $box-shadow-4: 2px 2px 5px 8px #0c483b;
+
+ //footer
+
+$footer-bg-color: $primary-color; 
+$footer-socialmedia:$light-primary-color
+
+//form

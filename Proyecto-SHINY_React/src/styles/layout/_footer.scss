@@ -1,0 +1,34 @@
+@use "sass:map";
+@use "../utils/variables" as *;
+
+.footer__container {
+    background-color: $strong-secondary-color;
+    margin-top: 2rem;
+    height: 64px;
+    border-radius: 2rem;
+
+    .footer__wrapp {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $white-color;
+        @media screen and (max-width: map.get($grid-breakpoints, sm) ) {
+            flex-direction: column;
+        }
+        .footer__socialmedia-links {
+            color: $light-secondary-color;
+            &:not(:first-child) {
+                margin-left: 1.5rem;
+            }
+            @media screen and (max-width: map.get($grid-breakpoints, sm) ) {
+                margin: 1rem 0;
+            }
+            i {
+                font-size: 1.5rem;
+            }
+            &:hover {
+                color: $white-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+
+//Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$grid-width: (
+  xs: 360px,
+  sm: 520px,
+  md: 720px,
+  lg: 880px,
+  xl: 1120px,
+  xxl: 1200px
+);
+
+// Colors
+$primary-color: #fba93e;
+$strong-primary-color: #fa9304;
+$light-primary-color: #edc690;
+$superlight-primary-color: #f4e1c5;
+$secondary-color: #2EC4B6;
+$strong-secondary-color: #16a395;
+$light-secondary-color: #CBF3F0;
+
+$black-color: #111;
+$white-color: #edebeb;
+
+$overlay-color: rgba(0, 0, 0, 0.6);
+
+$success-color: #2a892a;
+$danger-color: #d02121;
+$warning-color: #c1aa17;
+
+//Layout
+$body-bg-color: $light-secondary-color;
+$navbar-bg-color: $strong-secondary-color;
+
+//Grid
+$grid-columns: 12;
+
+//Spacings
+$spacings: (
+    m: margin,
+    mt: margin-top,
+    mb: margin-bottom,
+    ml: margin-left,
+    mr: margin-right,
+    p: padding,
+    pt: padding-top,
+    pb: padding-bottom,
+    pl: padding-left,
+    pr: padding-right,
+);

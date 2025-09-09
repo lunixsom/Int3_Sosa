@@ -1,0 +1,21 @@
+@use "../utils/variables" as *;
+
+body {
+    background-color: $body-bg-color;
+    margin: 0;
+    padding-top: 4.5rem;
+    position: relative;
+}
+
+main {
+    min-height: calc(100vh - (4.5rem + 2rem + 64px));
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+h1, h3 {
+    margin: 0;
+}
