@@ -51,7 +51,7 @@ function Upload() {
         freeDelivery: false,
         ageFrom: 0,
         ageTo: 0,
-        image: ""
+        img: ""
     }, validationsUpload)
 
     const handleSubmit = e => {
@@ -128,8 +128,8 @@ function Upload() {
                                 label: "Edad hasta"
                             },
                             {
-                                name: "image",
-                                type: "text",
+                                name: "img",
+                                type: "file",
                                 label: "URL imagen"
                             },
                         ]}

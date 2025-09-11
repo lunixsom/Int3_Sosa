@@ -12,11 +12,11 @@ function CartProvider({children}) {
             setCart(
                 cart.filter(
                     (itemCart) =>
-                        itemCart.prod.id !== product. id 
+                        itemCart.prod._id !== product._id 
                 )
             )
         } else {
-            const foundProduct = cart.find( ({ prod }) => prod.id === product.id)
+            const foundProduct = cart.find( ({ prod }) => prod._id === product._id)
     
             if (!foundProduct) {
                 setCart([
@@ -30,7 +30,7 @@ function CartProvider({children}) {
                 setCart(
                     cart.map(
                         (itemCart) =>
-                            itemCart.prod.id === product. id ?
+                            itemCart.prod._id === product._id ?
                                 {prod: product, quantity}
                             :
                                 itemCart

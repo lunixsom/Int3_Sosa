@@ -7,7 +7,7 @@ export const useForm = (initialValues, validations) => {
     const onChange = ({ target }) => {
         setValues({
             ...values,
-            [target.name]: target.type === "checkbox" ? target.checked : target.value
+            [target.name]: target.type === "checkbox" ? target.checked : target.type ==="file" ? target.files[0] : target.value
         })
         if (validations[target.name] && !validations[target.name].validation(target.value)) {
             setErrors({...errors, [target.name]: validations[target.name].errorText})

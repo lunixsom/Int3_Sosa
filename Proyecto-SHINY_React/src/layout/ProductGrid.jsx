@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import Box from "../components/Box"
 import Card from "../components/Card"
-import { getProducts } from "../utils/api.js"
+import { getProducts } from "../utils/api"
 
 function ProductGrid() {
     
@@ -18,7 +18,7 @@ function ProductGrid() {
             {
                 products.map(
                     prod => 
-                    <Box key={prod._id} className="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+                        <Box key={prod._id} className="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
                             <Card {...prod} />
                         </Box>
                 )

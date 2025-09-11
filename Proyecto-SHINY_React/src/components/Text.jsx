@@ -15,10 +15,10 @@ const textElements = {
     
 }
 
-function Text({ as = "p", ...props}) {
+function MyText({ as = "p", ...props}) {
     return (
         createElement(textElements[as] || "p", props)
     )
 }
 
-export default Text
+export default MyText

@@ -1,5 +1,7 @@
 import AppRoutes from "./routes/AppRoutes"
-import CartProvider from "./context/CartProvider"
+import CartProvider from "./context/CartProvider" 
+import React from "react"
+
 
 function App() {
     return (

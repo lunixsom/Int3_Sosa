@@ -42,7 +42,7 @@ export const createProduct = async (req, res) => {
 
         const newProd = await Products.create({
             ...body,
-            img: `/images/${image._id}`
+            img: `${process.env.BASE_URL_API}/images/${image._id} `
         })
 
         fs.rm("./" + file.path, error => {

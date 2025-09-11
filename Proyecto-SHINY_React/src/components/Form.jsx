@@ -22,7 +22,7 @@ function Form({
                                 id={name} 
                                 name={name} 
                                 type={type} 
-                                value={values[name]} 
+                                value={type !=="file" ? values[name] : values[name].filename} 
                                 onChange={onChange} 
                                 className={`form__input${ errors[name] ? " with-error" : ""}`}/>
                             {errors[name] && <Text as="span" className="form__error">{errors[name]}</Text>}

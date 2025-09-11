@@ -1,6 +1,6 @@
 import Box from './Box'
 import Counter from './Counter'
-import Text from './Text'
+import MyText from './Text'  // <-- Cambiado a MyText
 
 function Card({
     img,
@@ -14,8 +14,8 @@ function Card({
             <img src={img} alt={name} />
             <Box className="card__content m-4">
                 <Box>
-                    <Text as="h3">{name}</Text>
-                    <Text>{shortDescription}</Text>
+                    <MyText as="h3">{name}</MyText>
+                    <MyText>{shortDescription}</MyText>
                 </Box>
                 <Box className="card__price">
                     <Box className="d-flex justify-center w-100">
@@ -30,7 +30,7 @@ function Card({
                         />
                     </Box>
                     <hr className="w-100"/>
-                    <Text as='b'>{`$ ${amount}`}</Text>
+                    <MyText as='b'>{`$ ${amount}`}</MyText>
                 </Box>
             </Box>
         </Box>

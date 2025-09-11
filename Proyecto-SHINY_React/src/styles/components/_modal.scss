@@ -17,8 +17,9 @@
         color: $black-color;
         border-radius: 1rem;
         min-height: 40vh;
-        min-width: 40vw;
-        padding: 24px;
+        min-width: 45vw;
+        padding: 35px;
+        box-shadow: 1px 5px 8px rgb(47, 177, 132);
         @media screen and (max-width: map.get($grid-breakpoints, md)) {
             min-width: 94vw;
         }
@@ -28,3 +29,4 @@
         }
     }
 }
+
